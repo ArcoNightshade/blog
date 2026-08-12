@@ -2,7 +2,7 @@
 title = "Welcome to Pureshade Blogs"
 date = "2026-08-11T18:58:40-04:00"
 #dateFormat = "2006-01-02" # This value can be configured for per-post date formatting
-author = "Lyon Antoniuk"
+author = "Pureshade Labs"
 authorTwitter = "" #do not include @
 description = "Wow! A blog!"
 showFullContent = true

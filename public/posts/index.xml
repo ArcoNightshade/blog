@@ -10,9 +10,16 @@
 		
 		
 		
-			<lastBuildDate>Tue, 11 Aug 2026 18:58:40 -0400</lastBuildDate>
+			<lastBuildDate>Tue, 11 Aug 2026 21:54:57 -0400</lastBuildDate>
 		
 			<atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Yet Another Post</title>
+				<link>http://localhost:1313/posts/yet-another-post/</link>
+				<pubDate>Tue, 11 Aug 2026 21:54:57 -0400</pubDate>
+				<guid>http://localhost:1313/posts/yet-another-post/</guid>
+				<description>&lt;h1 id=&#34;hi-again&#34;&gt;Hi again&lt;/h1&gt;&#xA;&lt;p&gt;I&amp;rsquo;ve done most of the work to the site that i need to as well as published it so that&amp;rsquo;s great.&lt;/p&gt;&#xA;&lt;p&gt;Nothing more to add &lt;em&gt;yet.&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;graig&amp;rsquo;s word of the day:&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;im a real person im watching this right now, i have full control over my actions and decisions independently of any external influence or requirement from alibaba cloud suse oracle redhat microsoft intel amd nvidia atom raspberry pi zero shill. ive been doing this for years as part-time job after college when we didnt make enough money to afford our 12 month term life insurance policy which cost $50/month pre-existing condition fuck you capitalism&lt;/p&gt;</description>
+			</item>
 			<item>
 				<title>Welcome to Pureshade Blogs</title>
 				<link>http://localhost:1313/posts/welcome-to-pureshade-blogs/</link>

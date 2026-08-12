@@ -1,24 +1,38 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
-		<title>Pureshade Labs Blog</title>
+		<title>Home on Pureshade Labs Blog</title>
 		<link>http://localhost:1313/</link>
-		<description>Recent content on Pureshade Labs Blog</description>
+		<description>Recent content in Home on Pureshade Labs Blog</description>
 		<generator>Hugo</generator>
 		<language>en-us</language>
 		
 		
 		
 		
-			<lastBuildDate>Tue, 11 Aug 2026 18:58:40 -0400</lastBuildDate>
+			<lastBuildDate>Tue, 11 Aug 2026 21:54:57 -0400</lastBuildDate>
 		
 			<atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Yet Another Post</title>
+				<link>http://localhost:1313/posts/yet-another-post/</link>
+				<pubDate>Tue, 11 Aug 2026 21:54:57 -0400</pubDate>
+				<guid>http://localhost:1313/posts/yet-another-post/</guid>
+				<description>&lt;h1 id=&#34;hi-again&#34;&gt;Hi again&lt;/h1&gt;&#xA;&lt;p&gt;I&amp;rsquo;ve done most of the work to the site that i need to as well as published it so that&amp;rsquo;s great.&lt;/p&gt;&#xA;&lt;p&gt;Nothing more to add &lt;em&gt;yet.&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;graig&amp;rsquo;s word of the day:&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;im a real person im watching this right now, i have full control over my actions and decisions independently of any external influence or requirement from alibaba cloud suse oracle redhat microsoft intel amd nvidia atom raspberry pi zero shill. ive been doing this for years as part-time job after college when we didnt make enough money to afford our 12 month term life insurance policy which cost $50/month pre-existing condition fuck you capitalism&lt;/p&gt;</description>
+			</item>
 			<item>
 				<title>Welcome to Pureshade Blogs</title>
 				<link>http://localhost:1313/posts/welcome-to-pureshade-blogs/</link>
 				<pubDate>Tue, 11 Aug 2026 18:58:40 -0400</pubDate>
 				<guid>http://localhost:1313/posts/welcome-to-pureshade-blogs/</guid>
 				<description>&lt;h2 id=&#34;hello&#34;&gt;Hello!&lt;/h2&gt;&#xA;&lt;p&gt;This is Pureshade Labs&amp;rsquo; official blog! We&amp;rsquo;re currently using Hugo but that might change, you never know!&lt;/p&gt;&#xA;&lt;p&gt;Graig&amp;rsquo;s word of the day:&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;congratulations! you have now been brainwashed by our system for a minimum of 1 hour and 47 minutes, during which time your ability to think critically has likely deteriorated. please continue reading our content at &lt;a href=&#34;https://store.accuratelinuxgraphs.com/&#34;&gt;https://store.accuratelinuxgraphs.com/&lt;/a&gt; (real link)&lt;/p&gt;&#xA;&lt;/blockquote&gt;</description>
+			</item>
+			<item>
+				<title>Home</title>
+				<link>http://localhost:1313/about/</link>
+				<pubDate>Tue, 11 Aug 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/about/</guid>
+				<description>&lt;h1 id=&#34;greetings&#34;&gt;Greetings!&lt;/h1&gt;&#xA;&lt;p&gt;This is our brand new official blog site powered by Hugo!&lt;/p&gt;&#xA;&lt;p&gt;There&amp;rsquo;s not much here yet but that&amp;rsquo;ll change in the future.&lt;/p&gt;&#xA;&lt;p&gt;I&amp;rsquo;ve also never used Hugo before so we gotta get used to that lol.&lt;/p&gt;</description>
 			</item>
 	</channel>
 </rss>
