@@ -4,19 +4,19 @@ title = 'Pureshade Labs Blog'
 theme = 'terminal'
 
 [params.logo]
-   logoText = "Pureshade Labs"
-   logoHomeLink = "/"
+  logoText = "Pureshade Labs"
+  logoHomeLink = "/"
 
-paginate = 5
 [params]
-   mainSections = ["posts"]
+  mainSections = []
+  disableHomepagePosts = true
 
 [[menu.main]]
-   name = "Home"
-   url = "/"
-   weight = 1
+  name = "Home"
+  url = "/"
+  weight = 1
 
 [[menu.main]]
-   name = "Posts"
-   url = "/posts/"
-   weight = 2
+  name = "Posts"
+  url = "/posts/"
+  weight = 2
