@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Posts on Pureshade Labs Blog</title>
+		<link>http://localhost:1313/posts/</link>
+		<description>Recent content in Posts on Pureshade Labs Blog</description>
+		<generator>Hugo</generator>
+		<language>en-us</language>
+		
+		
+		
+		
+			<lastBuildDate>Tue, 11 Aug 2026 18:58:40 -0400</lastBuildDate>
+		
+			<atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Welcome to Pureshade Blogs</title>
+				<link>http://localhost:1313/posts/welcome-to-pureshade-blogs/</link>
+				<pubDate>Tue, 11 Aug 2026 18:58:40 -0400</pubDate>
+				<guid>http://localhost:1313/posts/welcome-to-pureshade-blogs/</guid>
+				<description>&lt;h2 id=&#34;hello&#34;&gt;Hello!&lt;/h2&gt;&#xA;&lt;p&gt;This is Pureshade Labs&amp;rsquo; official blog! We&amp;rsquo;re currently using Hugo but that might change, you never know!&lt;/p&gt;&#xA;&lt;p&gt;Graig&amp;rsquo;s word of the day:&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;congratulations! you have now been brainwashed by our system for a minimum of 1 hour and 47 minutes, during which time your ability to think critically has likely deteriorated. please continue reading our content at &lt;a href=&#34;https://store.accuratelinuxgraphs.com/&#34;&gt;https://store.accuratelinuxgraphs.com/&lt;/a&gt; (real link)&lt;/p&gt;&#xA;&lt;/blockquote&gt;</description>
+			</item>
+	</channel>
+</rss>

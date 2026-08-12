@@ -1,0 +1,8 @@
+baseURL = 'https://blog.pureshade.dev/'
+locale = 'en-us'
+title = 'Pureshade Labs Blog'
+theme = 'terminal'
+
+[params.logo]
+   logoText = "Pureshade Labs"
+   logoHomeLink = "/"
