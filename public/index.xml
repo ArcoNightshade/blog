@@ -14,6 +14,13 @@
 		
 			<atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
 			<item>
+				<title>Information on Lythos</title>
+				<link>http://localhost:1313/posts/lythos-intro/</link>
+				<pubDate>Tue, 11 Aug 2026 21:54:57 -0400</pubDate>
+				<guid>http://localhost:1313/posts/lythos-intro/</guid>
+				<description>&lt;h1 id=&#34;a-tad-bit-of-information-about-psos-and-its-kernel&#34;&gt;A tad bit of information about PsOS (and it&amp;rsquo;s kernel)&lt;/h1&gt;&#xA;&lt;h2 id=&#34;lythos-the-kernel&#34;&gt;Lythos (the kernel)&lt;/h2&gt;&#xA;&lt;p&gt;Lythos is a minimalist, high-performance microkernel. All drivers and services run in userspace. The kernel exposes a minimal syscall surface across four categories: memory management, IPC primitives, capability operations, and scheduling.&lt;/p&gt;&#xA;&lt;h2 id=&#34;pureshadeos&#34;&gt;PureshadeOS&lt;/h2&gt;&#xA;&lt;p&gt;PureshadeOS (Or &lt;em&gt;PsOS&lt;/em&gt; for short) is the actual Operating System and userspace built above Lythos. As of writing this, PsOS has basic terminal utils, a very very unfinished package manager, and a custom FS that I built because porting BTRFS would be too annoying. The OS itself is &lt;strong&gt;very&lt;/strong&gt; inspired by NixOS but I&amp;rsquo;d say is a bit better because of me being able to learn from the mistakes of NixOS. one of the core design ideals of PsOS is stability, the more stable it is, the better for everyone, that&amp;rsquo;s why we have rollbacks.&lt;/p&gt;</description>
+			</item>
+			<item>
 				<title>Yet Another Post</title>
 				<link>http://localhost:1313/posts/yet-another-post/</link>
 				<pubDate>Tue, 11 Aug 2026 21:54:57 -0400</pubDate>

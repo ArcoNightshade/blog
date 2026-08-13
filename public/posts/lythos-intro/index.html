@@ -2,16 +2,18 @@
 <html lang="en">
 <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
   
-    <title>Posts :: Pureshade Labs Blog</title>
+    <title>Information on Lythos :: Pureshade Labs Blog</title>
   
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="" />
+<meta name="description" content="A tad bit of information about PsOS (and it&rsquo;s kernel) Lythos (the kernel) Lythos is a minimalist, high-performance microkernel. All drivers and services run in userspace. The kernel exposes a minimal syscall surface across four categories: memory management, IPC primitives, capability operations, and scheduling.
+PureshadeOS PureshadeOS (Or PsOS for short) is the actual Operating System and userspace built above Lythos. As of writing this, PsOS has basic terminal utils, a very very unfinished package manager, and a custom FS that I built because porting BTRFS would be too annoying. The OS itself is very inspired by NixOS but I&rsquo;d say is a bit better because of me being able to learn from the mistakes of NixOS. one of the core design ideals of PsOS is stability, the more stable it is, the better for everyone, that&rsquo;s why we have rollbacks.
+" />
 <meta name="keywords" content="" />
 
   <meta name="robots" content="noodp" />
 
-<link rel="canonical" href="http://localhost:1313/posts/" />
+<link rel="canonical" href="http://localhost:1313/posts/lythos-intro/" />
 
 
 
@@ -71,10 +73,12 @@
 
 
 <meta property="og:locale" content="en" />
-<meta property="og:type" content="website" />
-<meta property="og:title" content="Posts">
-<meta property="og:description" content="" />
-<meta property="og:url" content="http://localhost:1313/posts/" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Information on Lythos">
+<meta property="og:description" content="A tad bit of information about PsOS (and it&rsquo;s kernel) Lythos (the kernel) Lythos is a minimalist, high-performance microkernel. All drivers and services run in userspace. The kernel exposes a minimal syscall surface across four categories: memory management, IPC primitives, capability operations, and scheduling.
+PureshadeOS PureshadeOS (Or PsOS for short) is the actual Operating System and userspace built above Lythos. As of writing this, PsOS has basic terminal utils, a very very unfinished package manager, and a custom FS that I built because porting BTRFS would be too annoying. The OS itself is very inspired by NixOS but I&rsquo;d say is a bit better because of me being able to learn from the mistakes of NixOS. one of the core design ideals of PsOS is stability, the more stable it is, the better for everyone, that&rsquo;s why we have rollbacks.
+" />
+<meta property="og:url" content="http://localhost:1313/posts/lythos-intro/" />
 <meta property="og:site_name" content="Pureshade Labs Blog" />
 
   <meta property="og:image" content="http://localhost:1313/og-image.png">
@@ -83,10 +87,10 @@
 <meta property="og:image:height" content="627">
 
 
+  <meta property="article:published_time" content="2026-08-11 21:54:57 -0400 EDT" />
 
 
 
-  <link href="/posts/index.xml" rel="alternate" type="application/rss+xml" title="Pureshade Labs Blog" />
 
 
 
@@ -157,32 +161,29 @@
 
   <div class="content">
     
+<article class="post">
+  <h1 class="post-title">
+    <a href="http://localhost:1313/posts/lythos-intro/">Information on Lythos</a>
+  </h1>
+  <div class="post-meta"><time class="post-date">2026-08-11</time><span class="post-author">Pureshade Labs</span><span class="post-reading-time">5 min read (1051 words)</span></div>
+
   
-  <div class="posts">
-    
-      <article class="post on-list">
-        <h2 class="post-title">
-          <a href="http://localhost:1313/posts/lythos-intro/">Information on Lythos</a>
-        </h2>
-        <div class="post-meta"><time class="post-date">2026-08-11</time><span class="post-author">Pureshade Labs</span></div>
-
-        
-
-        
+  
 
 
-        <div class="post-content">
-          
-            <h1 id="a-tad-bit-of-information-about-psos-and-its-kernel">A tad bit of information about PsOS (and it&rsquo;s kernel)</h1>
-<h2 id="lythos-the-kernel">Lythos (the kernel)</h2>
+  
+
+  <div class="post-content"><div>
+        <h1 id="a-tad-bit-of-information-about-psos-and-its-kernel">A tad bit of information about PsOS (and it&rsquo;s kernel)<a href="#a-tad-bit-of-information-about-psos-and-its-kernel" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<h2 id="lythos-the-kernel">Lythos (the kernel)<a href="#lythos-the-kernel" class="hanchor" ariaLabel="Anchor">#</a> </h2>
 <p>Lythos is a minimalist, high-performance microkernel. All drivers and services run in userspace. The kernel exposes a minimal syscall surface across four categories: memory management, IPC primitives, capability operations, and scheduling.</p>
-<h2 id="pureshadeos">PureshadeOS</h2>
+<h2 id="pureshadeos">PureshadeOS<a href="#pureshadeos" class="hanchor" ariaLabel="Anchor">#</a> </h2>
 <p>PureshadeOS (Or <em>PsOS</em> for short) is the actual Operating System and userspace built above Lythos. As of writing this, PsOS has basic terminal utils, a very very unfinished package manager, and a custom FS that I built because porting BTRFS would be too annoying. The OS itself is <strong>very</strong> inspired by NixOS but I&rsquo;d say is a bit better because of me being able to learn from the mistakes of NixOS. one of the core design ideals of PsOS is stability, the more stable it is, the better for everyone, that&rsquo;s why we have rollbacks.</p>
-<h2 id="shade">Shade</h2>
+<h2 id="shade">Shade<a href="#shade" class="hanchor" ariaLabel="Anchor">#</a> </h2>
 <p>Shade is PureshadeOS&rsquo; package manager, closely modeled after Nix but also faster and entirely written in Rust, it is the successor to rpkg, which was basically a cargo wrapper.</p>
-<h2 id="prisms">Prisms</h2>
+<h2 id="prisms">Prisms<a href="#prisms" class="hanchor" ariaLabel="Anchor">#</a> </h2>
 <p>Prisms are the PureshadeOS version of Nix&rsquo;s flakes, they are the gold standard compared to Nix which still marks them as an experimental feature even though it&rsquo;s been many years and a large majority of users use them. Prisms are written in the Shade DSL (not to be confused with the Shade CLI/package manager, and if you can&rsquo;t tell it is <em>also</em> inspired by Nix (the language) and Nix (the package manager), amazing!).</p>
-<h2 id="the-filesystem-hierarchy">The FileSystem Hierarchy</h2>
+<h2 id="the-filesystem-hierarchy">The FileSystem Hierarchy<a href="#the-filesystem-hierarchy" class="hanchor" ariaLabel="Anchor">#</a> </h2>
 <pre tabindex="0"><code>/                                   (root, RFS filesystem)
 ├── /lth/                           (system namespace — kernel and core daemons)
 │   ├── /lth/system/                (@core subvolume, read-only)
@@ -304,75 +305,15 @@
 <p>Honestly, I hope it becomes more stable for real hardware one day because it would be amazing.</p>
 <p>This also marks the death of the &ldquo;graig&rsquo;s word of the day&rdquo; thing on every post, but I&rsquo;ll try to do it on every Friday instead.</p>
 
-          
-        </div>
+      </div></div>
 
-        
-      </article>
-    
-      <article class="post on-list">
-        <h2 class="post-title">
-          <a href="http://localhost:1313/posts/yet-another-post/">Yet Another Post</a>
-        </h2>
-        <div class="post-meta"><time class="post-date">2026-08-11</time><span class="post-author">Pureshade Labs</span></div>
+  
 
-        
-
-        
-
-
-        <div class="post-content">
-          
-            <h1 id="hi-again">Hi again</h1>
-<p>I&rsquo;ve done most of the work to the site that i need to as well as published it so that&rsquo;s great.</p>
-<p>Nothing more to add <em>yet.</em></p>
-<p>graig&rsquo;s word of the day:</p>
-<blockquote>
-<p>im a real person im watching this right now, i have full control over my actions and decisions independently of any external influence or requirement from alibaba cloud suse oracle redhat microsoft intel amd nvidia atom raspberry pi zero shill. ive been doing this for years as part-time job after college when we didnt make enough money to afford our 12 month term life insurance policy which cost $50/month pre-existing condition fuck you capitalism</p>
-</blockquote>
-
-          
-        </div>
-
-        
-      </article>
-    
-      <article class="post on-list">
-        <h2 class="post-title">
-          <a href="http://localhost:1313/posts/welcome-to-pureshade-blogs/">Welcome to Pureshade Blogs</a>
-        </h2>
-        <div class="post-meta"><time class="post-date">2026-08-11</time><span class="post-author">Pureshade Labs</span></div>
-
-        
-
-        
-
-
-        <div class="post-content">
-          
-            <h2 id="hello">Hello!</h2>
-<p>This is Pureshade Labs&rsquo; official blog! We&rsquo;re currently using Hugo but that might change, you never know!</p>
-<p>Graig&rsquo;s word of the day:</p>
-<blockquote>
-<p>congratulations! you have now been brainwashed by our system for a minimum of 1 hour and 47 minutes, during which time your ability to think critically has likely deteriorated. please continue reading our content at <a href="https://store.accuratelinuxgraphs.com/">https://store.accuratelinuxgraphs.com/</a> (real link)</p>
-</blockquote>
-
-          
-        </div>
-
-        
-      </article>
+  
     
 
-    <div class="pagination">
-  <div class="pagination__buttons">
-    
-    
-    
-  </div>
-</div>
-
-  </div>
+  
+</article>
 
   </div>
 
